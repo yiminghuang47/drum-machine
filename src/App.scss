@@ -1,0 +1,48 @@
+#App {
+  height: 100vh;
+  width: 100vw;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  #drum-machine {
+    height: 50%;
+    width: 50%;
+    background-color: rgb(193, 186, 186);
+    display: flex;
+    flex-direction: row;
+    gap:0px;
+
+    #drum-pads{
+      height: 100%;
+      width: 70%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      gap:1%;
+      button{
+        height: 30%;
+        width: 30%;
+      }
+    }
+    #display{
+      background-color: aqua;
+      height: 100%;
+      width:30%;
+      p{
+        height: 20%;
+        width: 80%;
+        background-color: white;
+        margin: auto;
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
